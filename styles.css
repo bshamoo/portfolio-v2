@@ -341,11 +341,11 @@ a.btn:hover  {
 @media (max-width: 767.98px) { 
   .home .name-text {
     font-size: 16vw;
-    -webkit-text-stroke: var(--secondary) 1.5px;
+    -webkit-text-stroke: var(--secondary) 2px;
   }
   
   .title .swe-text {
-    -webkit-text-stroke: var(--secondary) 1.5px;
+    -webkit-text-stroke: var(--secondary) 2px;
   }
 
   .title h1,
@@ -355,7 +355,7 @@ a.btn:hover  {
   }
 
   .contact a {
-    -webkit-text-stroke: var(--secondary) 1.5px;
+    -webkit-text-stroke: var(--secondary) 2px;
   }
 }
 
@@ -363,15 +363,11 @@ a.btn:hover  {
 /* @media (max-width: 991.98px) { 
   .home .name-text {
     font-size: 15vw;
-    -webkit-text-stroke: var(--secondary) 1.5px;
+    -webkit-text-stroke: var(--secondary) 2px;
   }
   
   .title .swe-text {
-    -webkit-text-stroke: var(--secondary) 1.5px;
-  }
-
-  .title .student-text:hover {
-    -webkit-text-stroke: var(--primary) 1.5px;
+    -webkit-text-stroke: var(--secondary) 2px;
   }
 
   .title h1,
@@ -381,7 +377,7 @@ a.btn:hover  {
   }
 
   .contact a {
-    -webkit-text-stroke: var(--secondary) 1.5px;
+    -webkit-text-stroke: var(--secondary) 2px;
   }
 } */
 
@@ -389,15 +385,11 @@ a.btn:hover  {
 /* @media (max-width: 1199.98px) {   
   .home .name-text {
     font-size: 15vw;
-    -webkit-text-stroke: var(--secondary) 3px;
+    -webkit-text-stroke: var(--secondary) 2px;
   }
 
   .title .swe-text {
-    -webkit-text-stroke: var(--secondary) 3px;
-  }
-
-  .title .student-text:hover {
-    -webkit-text-stroke: var(--primary) 3px;
+    -webkit-text-stroke: var(--secondary) 2px;
   }
 
   .title h1,
@@ -407,7 +399,7 @@ a.btn:hover  {
   }
 
   .contact a {
-    -webkit-text-stroke: var(--secondary) 3px;
+    -webkit-text-stroke: var(--secondary) 2px;
   }
 } */
 
@@ -415,15 +407,11 @@ a.btn:hover  {
 /* @media (max-width: 1399.98px) { 
   .home .name-text {
     font-size: 15vw;
-    -webkit-text-stroke: var(--secondary) 3.5px;
+    -webkit-text-stroke: var(--secondary) 3px;
   }
 
   .title .swe-text {
-    -webkit-text-stroke: var(--secondary) 3.5px;
-  }
-
-  .title .student-text:hover {
-    -webkit-text-stroke: var(--primary) 3.5px;
+    -webkit-text-stroke: var(--secondary) 3px;
   }
 
   .title h1,
@@ -433,6 +421,6 @@ a.btn:hover  {
   }
 
   .contact a {
-    -webkit-text-stroke: var(--secondary) 3.5px;
+    -webkit-text-stroke: var(--secondary) 3px;
   }
 } */
