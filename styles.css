@@ -172,7 +172,8 @@ section p {
 }
 
 section img {
-  transition: 0.2s
+  transition: 0.2s;
+  /* width: 60%; */
 }
 
 section img:hover {
@@ -287,18 +288,19 @@ small {
 }
 
 a.btn {
-  background-color: var(--primary);
-  border-color: var(--primary);
-  color: var(--background);
-  text-decoration: none;
+  background-color: var(--background);
+  border-color: var(--secondary);
+  text-decoration-color: var(--secondary);
+  color: var(--secondary);
+  text-decoration: underline;
   transition: 0.2s;
   border-radius: 5px !important;
 }
 
 a.btn:hover  {
-  background-color: var(--primary);
-  border-color: var(--primary);
+  background-color: var(--secondary);
   color: var(--background);
+  text-decoration-color: var(--background);
 }
 
 .navbar-toggler-icon {
