@@ -25,6 +25,7 @@ EMAIL: bshamoo@icloud.com
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,26 +33,32 @@ EMAIL: bshamoo@icloud.com
       crossorigin="anonymous"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- CSS Style Sheet -->
     <link rel="stylesheet" href="../styles.css" />
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <!-- Manifest -->
     <link rel="manifest" href="../favicon_io/site.webmanifest">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;600;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>EUCALC | Brandon Shamoo</title>
   </head>
   <body>
-
+  <!-- Navbar -->
   <div class="container-fluid mt-5 px-3 px-sm-5">
     <nav id="navbar" class="navbar sticky-top navbar-expand-lg mx-sm-2 navbar-light">
+        <!-- Navbar brand -->
         <a
           class="navbar-brand active"
           aria-current="page"
@@ -69,6 +76,7 @@ EMAIL: bshamoo@icloud.com
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- Nav-links -->
         <div
           class="collapse navbar-collapse justify-content-end"
           id="navbarSupportedContent"
@@ -89,30 +97,34 @@ EMAIL: bshamoo@icloud.com
       </nav>
     </div>
 
+    <!-- EUCALC Section -->
     <section class="eucalc py-5" id="eucalc">
         <div class="container-fluid px-3 px-sm-5">
             <div class="row justify-content-center px-sm-2">
+            <!-- Left Column Header -->
             <div class="col-xs-auto col-sm-4">
-                <div class="row justify-content-start align-items-center">
-                    <div class="col-xs-auto col-sm-auto">
-                        <h5>PROJECT 001</h5>
-                    </div>
+              <div class="row justify-content-start align-items-center">
+                <div class="col-xs-auto col-sm-auto">
+                    <h4 style="font-size: large; font-weight: 400; font-family: Ubuntu, sans-serif;">PROJECT 001</h4>
                 </div>
-                <div class="row justify-content-start align-items-center">
-                    <div class="col-xs-auto col-sm-auto">
-                        <h2>
-                        EUCALC
-                        </h2>
-                        <h6>2020</h6>
-                    </div>
-                </div>
-                <div class="row justify-content-start align-items-center">
-                    <div class="col-xs-auto col-sm-auto">
-                        <hr>
-                    </div>
-                </div>
+              </div>
+              <div class="row justify-content-start align-items-center">
+                  <div class="col-xs-auto col-sm-auto">
+                      <h5 style="font-size: x-large; font-weight: 500; font-family: Ubuntu, sans-serif;">
+                      EUCALC
+                      </h5>
+                      <h6 style="font-weight: 400;">2020</h6>
+                  </div>
+              </div>
+              <div class="row justify-content-start align-items-center">
+                  <div class="col-xs-auto col-sm-auto">
+                      <hr>
+                  </div>
+              </div>
             </div>
+            <!-- Right Column Content -->
             <div class="col-xs-auto col-sm-8 ">
+                <!-- Title -->
                 <div class="row justify-content-start align-items-center ">
                 <div class="col-xs-auto col-sm-8">
                     <h3>A Chrome Extension Calculator.</h3>
@@ -121,6 +133,7 @@ EMAIL: bshamoo@icloud.com
                     <p>Web Development</p>
                 </div>
                 </div>
+                <!-- Description -->
                 <div class="row justify-content-start align-items-center my-4">
                     <div class="col-xs-auto col-sm-auto">
                         <p>Perform arithmetic, conversions, and Euclidean inspired math in the comfort of your Google Chrome browser.</p><br>
@@ -128,12 +141,14 @@ EMAIL: bshamoo@icloud.com
                         <p>Designed with the Google color scheme in mind, EUCALC was developed for the need to quickly calculate and verify equations and the desire to develop my React.js skills.</p>
                     </div>
                 </div>
+                <!-- Button to Chrome Store Row -->
                 <div class="row justify-content-start align-items-center my-4">
                     <div class="col-xs-auto col-sm-auto my-1">
                         <a href="https://chrome.google.com/webstore/detail/eucalc/nbeldnpgphojhakeikhppcfdkaajblgj?hl=en" target="_blank"
                         role="button" class="btn d-block text-center" title="View Eucalc on Chrome Web Store in a new tab"><p>View on Chrome Web Store</p></a>
                     </div>
                 </div>
+                <!-- Lang/Frame Row -->
                 <div class="row justify-content-start align-items-center my-4">
                     <p class="my-1">Languages & Frameworks Used:</p>
                     <div class="col-xs-auto col-sm-auto my-1">
@@ -146,6 +161,7 @@ EMAIL: bshamoo@icloud.com
                         <div class="list-group-item text-center"><p>Bootstrap</p></div>
                     </div>
                 </div>
+                <!-- Image of Eucalc -->
                 <div class="row justify-content-start align-items-center">
                     <div class="col-xs-auto col-sm-auto">
                         <img src="../images/eucalc1.jpg" class="img-fluid rounded" alt="EUCALC Calculator User Interface">
@@ -156,8 +172,10 @@ EMAIL: bshamoo@icloud.com
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
       <div class="container-fluid pb-5 px-4 px-sm-5">
+        <!-- Back to Top Row -->
         <div class="row justify-content-center align-items-center px-sm-2 my-5">
           <div class="col-xs-12 col-sm-auto p-0">
             <a href="#" style="text-decoration: none;" title="Scroll to the top of this page">
@@ -165,13 +183,16 @@ EMAIL: bshamoo@icloud.com
               <p id="back-to-top" class="text-center mt-0">Back to Top</p>
             </a>
           </div>
-        </div>    
+        </div>
+        <!--Info Row -->
         <div class="row justify-content-center align-items-center px-sm-2">
+          <!-- Brandon Shamoo Col -->
           <div class="col-xs-12 col-sm-6 p-0">
             <hr>  
             <p class="mb-sm-1"><small>© 2022 BRANDON SHAMOO</small></p>
             <p class="mb-sm-1"><small>Designed and developed by Brandon Shamoo</small></p>
           </div>
+          <!-- Social Link Column -->
           <div class="col-xs-12 col-sm-3 p-0">
             <hr>  
             <p class="mb-sm-1">Social</p>
@@ -194,6 +215,7 @@ EMAIL: bshamoo@icloud.com
                 </div>
               </div>
           </div>
+          <!-- Contact Column -->
           <div class="col-xs-auto col-sm-3 p-0">
             <hr> 
             <p class="mb-sm-1">Contact</p>
@@ -212,7 +234,7 @@ EMAIL: bshamoo@icloud.com
         </div>
       </div>
     </footer>
-  
+    <!-- Bootstrap Scripts -->
       <script
         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
