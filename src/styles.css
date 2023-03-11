@@ -1,0 +1,420 @@
+/* CSS HEX */
+:root {
+  --cultured-white: #F1F1F1;
+  --davys-gray: #4F4F4F;
+  --eerie-black: #1f1f1f;
+  --forest-green: #174e30;
+}
+/*  */
+
+/* HTML */
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: var(--cultured-white) !important;
+  min-height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: var(--forest-green);
+  color: var(--cultured-white);
+}
+/*  */
+
+/* Navbar */
+.navbar {
+  font-family: "Ubuntu", sans-serif;
+  background-color: var(--cultured-white);
+}
+
+.navbar a h5 {
+  font-weight: 400;
+  font-size: 100%;
+}
+
+.navbar a,
+.navbar a:visited {
+  color: var(--eerie-black) !important;
+  transition: 0.2s;
+}
+
+.navbar a:hover {
+  color: var(--forest-green) !important;
+}
+
+.navbar .navbar-nav h6 {
+  font-weight: 400 !important;
+  font-size: 90% !important;
+}
+
+.navbar .navbar-nav a,
+.navbar .navbar-nav a:visited {
+  color: var(--davys-gray) !important;
+}
+
+.navbar .navbar-nav a:hover {
+  color: var(--forest-green) !important;
+}
+
+.navbar .navbar-nav .nav-item .active {
+  color: var(--forest-green) !important;
+}
+
+.navbar .navbar-nav .nav-item .active h6 {
+  color: var(--forest-green) !important;
+  font-weight: 600 !important;
+}
+/*  */
+
+/* Home */
+.home .container-fluid {
+  min-height: 20vh;
+}
+
+.home h1 {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.home .home-text {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: var(--eerie-black);
+}
+
+.home .name-text {
+  color: var(--cultured-white);
+  -webkit-text-stroke: var(--forest-green) 5px;
+  font-size: 14vw;
+}
+
+.home .name-text:hover {
+  color: var(--forest-green);
+}
+/*  */
+
+/* Projects */
+.projects {
+  font-family: "Prompt", sans-serif;
+  color: var(--eerie-black);
+}
+
+.projects .container-fluid {
+  min-height: 20vh;
+}
+
+.projects .card {
+  background-color: var(--cultured-white);
+}
+
+.projects h1,
+.projects h2 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.projects h5 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+.projects h6 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.projects p {
+  font-size: medium;
+  font-weight: 300; 
+  font-family: 'Prompt', sans-serif;
+  margin: 0px;
+  color: var(--forest-green);
+}
+/*  */
+
+/* Section */
+section {
+  font-family: "Prompt", sans-serif;
+}
+
+section .container-fluid {
+  min-height: 20vh;
+}
+
+section h1,
+section h2 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+section h5 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: var(--eerie-black);
+}
+
+section h6 {
+  font-family: 'Roboto Mono', monospace;
+  color: var(--eerie-black);
+}
+
+section p {
+  font-size: medium;
+  font-weight: 300; 
+  font-family: 'Prompt', sans-serif;
+  margin: 0px;
+}
+
+section img {
+  transition: 0.2s;
+  /* width: 60%; */
+}
+
+section img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+/*  */
+
+/* Title */
+.title .container-fluid {
+  min-height: 20vh;
+}
+
+.title h1 {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  transition: 0.2s;
+  font-size: 11vw;
+}
+
+.title .student-text {
+  color: var(--eerie-black);
+}
+
+.title .swe-text {
+  color: var(--cultured-white);
+  -webkit-text-stroke: var(--forest-green) 3px;
+}
+
+.title .swe-text:hover {
+  color: var(--forest-green);
+}
+/*  */
+
+/* Contact */
+.contact .container-fluid {
+  min-height: 20vh;
+}
+
+.contact .idea-text {
+  font-size: 10vw;
+  color: var(--eerie-black);
+}
+
+.contact .talk-text {
+  font-size: 10vw;
+  color: var(--cultured-white);
+  transition: 0.2s;
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--cultured-white);
+  text-decoration: none;
+  -webkit-text-stroke: var(--forest-green) 3px;
+}
+
+.contact a .talk-text:hover {
+  text-decoration: none;
+  color: var(--forest-green);
+}
+/*  */
+
+/* Misc. */
+hr {
+  opacity: 1; 
+  width: 50px;
+  border-top: 3px solid var(--forest-green);
+}
+
+small {
+  color: var(--davys-gray);
+}
+
+.card {
+  border: 0;
+}
+
+.card-overlay {
+  background-color: #1C1C25;
+}
+
+.card-btn img:hover {
+  opacity: 40%;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.card img {
+  height: 50vh;
+  object-fit: cover;
+  transition: 0.2s;
+}
+
+.list-group-item {
+  background-color: var(--cultured-white);
+  border-color: var(--forest-green);
+  text-decoration-color: var(--forest-green);
+  color: var(--forest-green);
+  transition: 0.2s;
+  border-radius: 5px !important;
+}
+
+.list-group-item:hover  {
+  background-color: var(--forest-green);
+  color: var(--cultured-white);
+  text-decoration-color: var(--cultured-white);
+}
+
+a.btn {
+  background-color: var(--cultured-white);
+  border-color: var(--forest-green);
+  text-decoration-color: var(--forest-green);
+  color: var(--forest-green);
+  text-decoration: underline;
+  transition: 0.2s;
+  border-radius: 5px !important;
+}
+
+a.btn:hover  {
+  background-color: var(--forest-green);
+  color: var(--cultured-white);
+  text-decoration-color: var(--cultured-white);
+}
+
+.navbar-toggler-icon {
+  color: var(--eerie-black);
+  font-size: medium;
+}
+
+#arrow {
+  color: var(--forest-green);
+}
+
+#back-to-top {
+  color: var(--eerie-black);
+}
+/*  */
+
+ /* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .home .name-text {
+    font-size: 16vw;
+    -webkit-text-stroke: var(--forest-green) 1.5px;
+  }
+  
+  .title .swe-text {
+    -webkit-text-stroke: var(--forest-green) 1.5px;
+  }
+
+  .title h1,
+  .contact .idea-text,
+  .contact .talk-text {
+    font-size: 16vw;
+  }
+
+  .contact a {
+    -webkit-text-stroke: var(--forest-green) 1.5px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .home .name-text {
+    font-size: 16vw;
+    -webkit-text-stroke: var(--forest-green) 2px;
+  }
+  
+  .title .swe-text {
+    -webkit-text-stroke: var(--forest-green) 2px;
+  }
+
+  .title h1,
+  .contact .idea-text,
+  .contact .talk-text {
+    font-size: 16vw;
+  }
+
+  .contact a {
+    -webkit-text-stroke: var(--forest-green) 2px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) { 
+  .home .name-text {
+    font-size: 15vw;
+    -webkit-text-stroke: var(--forest-green) 2px;
+  }
+  
+  .title .swe-text {
+    -webkit-text-stroke: var(--forest-green) 2px;
+  }
+  .title h1,
+  .contact .idea-text,
+  .contact .talk-text {
+    font-size: 15vw;
+  }
+  .contact a {
+    -webkit-text-stroke: var(--forest-green) 2px;
+  }
+} */
+
+/* Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) {   
+  .home .name-text {
+    font-size: 15vw;
+    -webkit-text-stroke: var(--forest-green) 2px;
+  }
+  .title .swe-text {
+    -webkit-text-stroke: var(--forest-green) 2px;
+  }
+  .title h1,
+  .contact .idea-text,
+  .contact .talk-text {
+    font-size: 15vw;
+  }
+  .contact a {
+    -webkit-text-stroke: var(--forest-green) 2px;
+  }
+} */
+
+/* // X-Large devices (large desktops, less than 1400px) */
+/* @media (max-width: 1399.98px) { 
+  .home .name-text {
+    font-size: 15vw;
+    -webkit-text-stroke: var(--forest-green) 3px;
+  }
+  .title .swe-text {
+    -webkit-text-stroke: var(--forest-green) 3px;
+  }
+  .title h1,
+  .contact .idea-text,
+  .contact .talk-text {
+    font-size: 15vw;
+  }
+  .contact a {
+    -webkit-text-stroke: var(--forest-green) 3px;
+  }
+} */
