@@ -244,6 +244,28 @@ hr {
   border-top: 3px solid var(--secondary);
 }
 
+.dashed {
+  border-top: 2.5px dashed var(--secondary) !important;
+  color: var(--background);
+  background-color: var(--background);
+}
+
+.sub {
+  opacity: 1; 
+  width: 25px;
+  border-top: 3px solid var(--secondary);
+}
+
+.main {
+  opacity: 1; 
+  width: 75px;
+  border-top: 3px solid var(--secondary);
+}
+
+.no-click {
+  cursor: auto;
+}
+
 small {
   color: var(--background-dark);
 }
