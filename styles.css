@@ -25,14 +25,13 @@ body {
 
 ::selection {
   background-color: var(--secondary);
-  color: var(--background);
+  color: transparent;
 }
 /*  */
 
 /* Navbar */
 .navbar {
   font-family: "Ubuntu", sans-serif;
-  background-color: var(--background);
 }
 
 .navbar a h5 {
@@ -92,7 +91,7 @@ body {
 }
 
 .home .name-text {
-  color: var(--background);
+  color: transparent;
   -webkit-text-stroke: var(--secondary) 5px;
   font-size: 14vw;
 }
@@ -113,7 +112,7 @@ body {
 }
 
 .projects .card {
-  background-color: var(--background);
+  background-color: transparent;
 }
 
 .projects h1,
@@ -199,7 +198,7 @@ section img:hover {
 }
 
 .title .swe-text {
-  color: var(--background);
+  color: rgba(0,0,0,0);
   -webkit-text-stroke: var(--secondary) 3px;
 }
 
@@ -220,13 +219,13 @@ section img:hover {
 
 .contact .talk-text {
   font-size: 10vw;
-  color: var(--background);
+  color: transparent;
   transition: 0.2s;
 }
 
 .contact a {
   text-decoration: none;
-  color: var(--background);
+  color: transparent;
   text-decoration: none;
   -webkit-text-stroke: var(--secondary) 3px;
 }
@@ -246,8 +245,7 @@ hr {
 
 .dashed {
   border-top: 2.5px dashed var(--secondary) !important;
-  color: var(--background);
-  background-color: var(--background);
+  color: transparent;
 }
 
 .sub {
@@ -295,7 +293,7 @@ small {
 }
 
 .list-group-item {
-  background-color: var(--background);
+  background-color: transparent;
   border-color: var(--secondary);
   text-decoration-color: var(--secondary);
   color: var(--secondary);
@@ -310,7 +308,7 @@ small {
 }
 
 a.btn {
-  background-color: var(--background);
+  background-color: transparent;
   border-color: var(--secondary);
   text-decoration-color: var(--secondary);
   color: var(--secondary);

@@ -41,24 +41,24 @@ const deansHonorList = [
 ];
 
 ///// Skills
-const backEnd = [
+const languagesFrameworks = [
     { name: "C" },
     { name: "Java" },
     { name: "Python" },
-    { name: "MySQL" },
-    { name: "Bash" }
-];
-const frontEnd = [
+    { name: "SQL" },
+    { name: "Bash" },
     { name: "JavaScript" },
     { name: "TypeScript" },
     { name: "HTML" },
     { name: "CSS" },
+    { name: "Bootstrap" },
     { name: "Angular" },
-    { name: "Bootstrap" }
+    { name: "PySpark" }
 ];
 const platforms = [
     { name: "Amazon Web Services (EC2 ∙ S3 ∙ EMR ∙ RDS ∙ Route53)" },
     { name: "Apache Kafka" },
+    { name: "Apacke HTTP Server" },
     { name: "Apacke Airflow" },
     { name: "Spring Boot" },
     { name: "Grafana" }
@@ -113,11 +113,8 @@ relevantCoursework.forEach(e => {
 deansHonorList.forEach(e => {
     document.getElementById('deansHonorList').innerHTML += listGroupOpen + e.name + listGroupClose;
 });
-backEnd.forEach(e => {
-    document.getElementById('backEnd').innerHTML += listGroupOpen + e.name + listGroupClose;
-});
-frontEnd.forEach(e => {
-    document.getElementById('frontEnd').innerHTML += listGroupOpen + e.name + listGroupClose;
+languagesFrameworks.forEach(e => {
+    document.getElementById('languagesFrameworks').innerHTML += listGroupOpen + e.name + listGroupClose;
 });
 platforms.forEach(e => {
     document.getElementById('platforms').innerHTML += listGroupOpen + e.name + listGroupClose;
