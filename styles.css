@@ -92,12 +92,18 @@ body {
 
 .home .name-text {
   color: transparent;
-  -webkit-text-stroke: var(--secondary) 5px;
+  -webkit-text-stroke: var(--secondary) 3px;
   font-size: 14vw;
 }
 
 .home .name-text:hover {
   color: var(--secondary);
+}
+
+.home .last-name-text {
+  color: var(--primary);
+  -webkit-text-stroke: var(--primary) 3px;
+  font-size: 14vw;
 }
 /*  */
 

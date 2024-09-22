@@ -41,27 +41,28 @@ const deansHonorList = [
 ];
 
 ///// Skills
-const languagesFrameworks = [
+const languages = [
     { name: "C" },
-    { name: "Java" },
     { name: "Python" },
+    { name: "Java" },
     { name: "SQL" },
-    { name: "Bash" },
     { name: "JavaScript" },
     { name: "TypeScript" },
     { name: "HTML" },
     { name: "CSS" },
-    { name: "Bootstrap" },
+    { name: "Bash" }
+];
+const frameworksLibraries = [
     { name: "Angular" },
-    { name: "PySpark" }
+    { name: "Spring Boot" },
+    { name: "JUnit" },
+    { name: "CUnit" },
+    { name: "Apache Portable Runtime (APR)" },
+    { name: "Pandas" }
 ];
 const platforms = [
-    { name: "Amazon Web Services (EC2 ∙ S3 ∙ EMR ∙ RDS ∙ Route53)" },
-    { name: "Apache Kafka" },
-    { name: "Apacke HTTP Server" },
-    { name: "Apacke Airflow" },
-    { name: "Spring Boot" },
-    { name: "Grafana" }
+    { name: "Amazon Web Services (AWS) (EC2 ∙ S3 ∙ EMR ∙ RDS ∙ Route53)" },
+    { name: "Apache (HTTP ∙ Spark ∙ Kafka ∙ Airflow)" }
 ];
 const developerTools = [
     { name: "Git" },
@@ -113,8 +114,11 @@ relevantCoursework.forEach(e => {
 deansHonorList.forEach(e => {
     document.getElementById('deansHonorList').innerHTML += listGroupOpen + e.name + listGroupClose;
 });
-languagesFrameworks.forEach(e => {
-    document.getElementById('languagesFrameworks').innerHTML += listGroupOpen + e.name + listGroupClose;
+languages.forEach(e => {
+    document.getElementById('languages').innerHTML += listGroupOpen + e.name + listGroupClose;
+});
+frameworksLibraries.forEach(e => {
+    document.getElementById('frameworksLibraries').innerHTML += listGroupOpen + e.name + listGroupClose;
 });
 platforms.forEach(e => {
     document.getElementById('platforms').innerHTML += listGroupOpen + e.name + listGroupClose;
