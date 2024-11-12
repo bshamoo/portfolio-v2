@@ -43,18 +43,20 @@ const deansHonorList = [
 ///// Skills
 const languages = [
     { name: "C" },
-    { name: "Python" },
     { name: "Java" },
+    { name: "Python" },
     { name: "SQL" },
     { name: "JavaScript" },
     { name: "TypeScript" },
     { name: "HTML" },
     { name: "CSS" },
-    { name: "Bash" }
+    { name: "Shell Script" }
 ];
 const frameworksLibraries = [
     { name: "Angular" },
     { name: "Spring Boot" },
+    { name: "JPA" },
+    { name: "Hibernate" },
     { name: "JUnit" },
     { name: "CUnit" },
     { name: "Apache Portable Runtime (APR)" },
